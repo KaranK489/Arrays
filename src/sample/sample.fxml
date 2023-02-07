@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="850.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button layoutX="7.0" layoutY="9.0" mnemonicParsing="false" onAction="#handleClick1" text="Method 1" />
+      <Label fx:id="lbl1A" layoutX="8.0" layoutY="43.0" />
+      <Button layoutX="8.0" layoutY="96.0" mnemonicParsing="false" onAction="#handleClick2" text="Method 2" />
+      <Label fx:id="lbl2A" layoutX="9.0" layoutY="130.0" />
+      <Button layoutX="9.0" layoutY="259.0" mnemonicParsing="false" onAction="#handleClick3B" text="Add Item" />
+      <Label fx:id="lbl3A" layoutX="12.0" layoutY="297.0" />
+      <Button layoutX="9.0" layoutY="223.0" mnemonicParsing="false" onAction="#handleClick3C" text="Replace Item" />
+      <TextField fx:id="txtInput3A" layoutX="84.0" layoutY="259.0" prefHeight="25.0" prefWidth="59.0" promptText="Position" />
+      <TextField fx:id="txtInput3B" layoutX="104.0" layoutY="223.0" prefHeight="25.0" prefWidth="39.0" promptText="Item" />
+      <Button layoutX="9.0" layoutY="188.0" mnemonicParsing="false" onAction="#handleClick3A" text="Method 3 - Create Array" />
+      <Button layoutX="11.0" layoutY="358.0" mnemonicParsing="false" onAction="#handleClick4" text="Method 4" />
+      <TextField fx:id="txtInput4A" layoutX="11.0" layoutY="414.0" prefHeight="25.0" prefWidth="66.0" promptText="# of Dice" />
+      <TextField fx:id="txtInput4B" layoutX="87.0" layoutY="414.0" prefHeight="25.0" prefWidth="74.0" promptText="# of Times" />
+      <ListView fx:id="lstView4" layoutX="11.0" layoutY="447.0" prefHeight="201.0" prefWidth="340.0" />
+      <Button layoutX="13.0" layoutY="656.0" mnemonicParsing="false" onAction="#handleClick5A" text="Method 5 - Create Array" />
+      <Label fx:id="lbl5A" layoutX="14.0" layoutY="765.0" />
+      <Label fx:id="lbl5B" layoutX="14.0" layoutY="793.0" />
+      <Label fx:id="lbl5C" layoutX="14.0" layoutY="819.0" />
+      <Label fx:id="lbl3B" layoutX="12.0" layoutY="327.0" />
+      <Label fx:id="lbl1B" layoutX="8.0" layoutY="71.0" />
+      <Label fx:id="lbl2B" layoutX="9.0" layoutY="159.0" />
+      <Label fx:id="lbl4" layoutX="12.0" layoutY="391.0" />
+      <Button layoutX="13.0" layoutY="694.0" mnemonicParsing="false" onAction="#handleClick5B" text="Shuffle Method #1" />
+      <Button layoutX="13.0" layoutY="732.0" mnemonicParsing="false" onAction="#handleClick5C" text="Shuffle Method #2" />
+      <Button layoutX="750.0" layoutY="11.0" mnemonicParsing="false" onAction="#handleClick6" text="Method 6" />
+      <Label fx:id="lbl6" layoutX="751.0" layoutY="46.0" />
+      <Button layoutX="750.0" layoutY="79.0" mnemonicParsing="false" onAction="#handleClick7" text="Method 7" />
+      <ListView fx:id="lstView7" layoutX="751.0" layoutY="113.0" prefHeight="171.0" prefWidth="321.0" />
+      <TextField fx:id="txtInput6" layoutX="829.0" layoutY="11.0" prefHeight="25.0" prefWidth="59.0" promptText="Number" />
+      <TextField fx:id="txtInput7" layoutX="829.0" layoutY="79.0" prefHeight="25.0" prefWidth="46.0" promptText="Rows" />
+      <ListView fx:id="lstView8" layoutX="751.0" layoutY="329.0" prefHeight="232.0" prefWidth="321.0" />
+      <TextField fx:id="txtInput8" layoutX="829.0" layoutY="293.0" onKeyTyped="#handleClick8B" prefHeight="25.0" prefWidth="130.0" promptText="Input" />
+      <Button layoutX="750.0" layoutY="293.0" mnemonicParsing="false" onAction="#handleClick8A" text="Method 8" />
+      <Button layoutX="750.0" layoutY="570.0" mnemonicParsing="false" onAction="#handleClick9" text="Method 9" />
+      <Label fx:id="lbl9" layoutX="751.0" layoutY="607.0" />
+      <TextField fx:id="txtInput1" layoutX="85.0" layoutY="9.0" prefHeight="25.0" prefWidth="59.0" promptText="Number" />
+      <TextField fx:id="txtInput9" layoutX="829.0" layoutY="570.0" prefHeight="25.0" prefWidth="115.0" promptText="Number of Lockers" />
+   </children>
+</AnchorPane>
